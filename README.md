@@ -17,7 +17,7 @@
 - Os dados financeiros (`discounted_price`, `actual_price`, `discount_percentage`) são **por produto** (`product_id`).
 - As avaliações (`reviews`, `rating`, `rating_count`) são **compartilhadas entre produtos da mesma família**.
 
-Somar o `rating_count` por produto infla o engajamento: são 23,8 milhões de avaliações contra 16.527.805 quando contadas uma vez por família. Toda a modelagem parte dessa decisão.
+Somar o `rating_count` por produto infla o engajamento: são 23,8 milhões de avaliações contra 16,5 milhões quando contadas uma vez por família. Toda a modelagem parte dessa decisão.
 
 ---
 
